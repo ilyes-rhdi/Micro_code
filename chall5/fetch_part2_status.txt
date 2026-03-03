@@ -1,1 +1,1 @@
-Part 2 not visible yet. Usually this means Part 1 is not accepted yet.
+input fetched via https://microcode.microclub.info/challenges/dcfabdd7-cf3a-4bc8-b395-c8ffa38c8349/input
