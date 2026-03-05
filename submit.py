@@ -163,7 +163,11 @@ def main() -> None:
             with page.expect_response(is_submit_response, timeout=args.timeout) as response_info:
                 form.locator("button[type='submit']").first.click()
             post_response = response_info.value
-            response_text = post_response.text()
+            try:
+                response_text = post_response.text()
+            except Exception:
+                # Some responses don't expose a retrievable body in Chromium protocol.
+                response_text = ""
         except PlaywrightTimeoutError:
             form.locator("button[type='submit']").first.click()
             response_text = ""
