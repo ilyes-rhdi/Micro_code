@@ -206,9 +206,8 @@ def solve_p2(input):
 
     p2_rootset = list(initial_roots)
 
-
-    effective_ops = 0
     mutated = False
+    effective_ops = 0
     for line in lines[2 : 2 + r]:
         parts = line.split()
         op = parts[0]
