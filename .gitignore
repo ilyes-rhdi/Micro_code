@@ -2,5 +2,5 @@
 __pycache__/
 *.pyc
 *.txt
-chall*/fetch*.txt
+chall*/fetch_part*_status.txt
 chall*/challenge_url.txt
