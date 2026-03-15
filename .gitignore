@@ -1,6 +1,6 @@
 .env
 __pycache__/
 *.pyc
-*.txt
-chall*/fetch_part*_status.txt
-chall*/challenge_url.txt
+chall*/fetch*.txt
+chall*/challenge*.txt
+chall*/*.pyc
