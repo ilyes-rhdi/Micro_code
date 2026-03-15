@@ -1,1 +1,0 @@
-input fetched via https://microcode.microclub.info/challenges/60d5d523-ec5b-429f-9a6b-68bd17185eda/input
